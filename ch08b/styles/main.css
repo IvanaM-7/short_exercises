@@ -108,6 +108,7 @@ footer {
 
 /* the styles for the navigation menu */
 .navbar {
+	position: relative;
 	background-color: var(--primary-color);
 	& ul {
 		list-style-type: none;
@@ -129,27 +130,46 @@ footer {
 }
 
 .menu {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+	position: absolute;
+	left: 0;
+	display: none;
+	background-color: var(--primary-color);
+}
+#checkbox-toggle { display: none; }
+
+.menu-btn {
+	display: block;
+	padding: 0.25em 1em;
+	font-size: 24px;
+}
+.menu-btn::after { content: "\2630"; }
+#checkbox-toggle:checked ~ .menu {
+	display: block;
+}
+#checkbox-toggle:checked ~ .menu-btn::after {
+	content: "\2716";
 }
 
 .menu li:has(.submenu) {
 	position: relative;
+	& small::after {
+		content: "\25b6"; /*right triangle*/
+	}
 	& small {
 		margin-left: .25em; /* add space for arrow */
 	}
 	&:hover > .submenu {
 		display: block;
 	}
-}
+ }
 
 .submenu {
 	position: absolute;
-	left: 0;
+	top: 0;
+	left: 100%;
 	background-color: var(--primary-color);
 	color: var(--light);
-	width: 175%;
+	width: 150%;
 	display: none;
 }
 
@@ -171,3 +191,22 @@ footer {
 	}
 }
 
+@media only screen and (min-width: 563px) {
+.menu {
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+}
+.menu-btn { display: none; }
+#checkbox-toggle:checked ~ .menu { display: flex; }
+
+ /*change triangle direction*/
+ .menu li:has(.submenu) small::after {
+	content: "\25bc"; /*down triangle*/
+ }
+ .submenu {
+	top: auto; /*remove mobile first value*/
+	left: 0;
+	width: 200%;
+ }
+}

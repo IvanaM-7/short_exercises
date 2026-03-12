@@ -63,7 +63,6 @@ main {
 
 /* the styles for the section */
 section {
-	flex-basis: 75%;
 	& h1 {
 		color: var(--primary-color);
 	}
@@ -113,7 +112,12 @@ footer {
 }
 
 /* the styles for the navigation menu */
+
 .navbar {
+	container-type: inline-size;
+	container-name: speakers;
+	flex-basis: 75%;
+	position: relative;
 	background-color: var(--primary-color);
 	& ul {
 		list-style-type: none;
@@ -135,7 +139,67 @@ footer {
 }
 
 .menu {
+	z-index: 1;
+}
+.menu {
+	position: absolute;
+	left: 0;
+	display: none;
+	background-color: var(--primary-color);
+}
+#checkbox-toggle { display: none; }
+
+.menu-btn {
+	display: block;
+	padding: 0.25em 1em;
+}
+.menu-btn::after { content: "\2630"; }
+#checkbox-toggle:checked ~ .menu {
+	display: block;
+}
+#checkbox-toggle:checked ~ .menu-btn::after {
+	content: "\2716";
+}
+
+.submenu {
+	position: absolute;
+	left: 0;
+	display: none;
+	background-color: var(--primary-color);
+}
+#checkbox-toggle { display: none; }
+
+.menu-btn {
+	display: block;
+	padding: 0.25em 1em;
+}
+.menu-btn::after { content: "\2630"; }
+#checkbox-toggle:checked ~ .menu {
+	display: block;
+}
+#checkbox-toggle:checked ~ .menu-btn::after {
+	content: "\2716";
+}
+
+@container speakers (min-width: 560px) {
+.speakers {
+	.menu {
+	position: relative;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-evenly;
+}
+.menu-btn { display: none; }
+#checkbox-toggle:checked ~ .menu { display: flex; }
+
+ .submenu {
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	top: auto; /*remove mobile first value*/
+	left: 0;
+	width: 200%;
+}
+.menu-btn { display: none; }
+#checkbox-toggle:checked ~ .menu { display: flex; }
+}
 }
