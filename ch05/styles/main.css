@@ -2,3 +2,109 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom properties */
+:root {
+    --main-color: rebeccapurple;
+    --bg-color: aliceblue;
+    --text-color: black;
+}
+
+/* HTML & Body */
+html {
+    background-color: var(--bg-color);
+}
+
+body {
+    width: 90%;
+    margin: 20px auto;
+    border: 20px double var(--main-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    background-color: white;
+    padding: 12px;
+    padding: 5px;
+}
+
+/* Main */
+main {
+    padding: 20px;
+    clear: left;
+}
+
+/* Footer */
+footer {
+    border-top: 3px solid var(--main-color);
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Headings */
+h1 {
+    font-size: 150%;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 125%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 115%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs, Lists, and Blockquotes */
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+blockquote{
+    margin: 15px 40px;
+    margin-left: 0;
+}
+cite {
+    margin-top: -5px;
+    margin-left: 0;
+    padding-left: 0;
+    color: var(--main-color);
+    font-style: normal;
+    font-weight: bold;
+}
+
+ul {
+    margin: 15px 40px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Images */
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    clear: left;
+}
