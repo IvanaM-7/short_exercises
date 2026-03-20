@@ -73,11 +73,10 @@ p {
     line-height: 1.5;
 }
 blockquote{
-    margin: 15px 40px;
-    margin-left: 0;
+    margin: 15px 40px 0px 0px;
 }
 cite {
-    margin-top: -5px;
+    margin-top: 5px;
     margin-left: 0;
     padding-left: 0;
     color: var(--main-color);
