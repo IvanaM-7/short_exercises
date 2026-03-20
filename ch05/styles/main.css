@@ -20,7 +20,7 @@ html {
 body {
     width: 90%;
     margin: 20px auto;
-    border: 20px double var(--main-color);
+    border: 10px double var(--main-color);
     font-family: Arial, Helvetica, sans-serif;
     color: var(--text-color);
     background-color: white;
