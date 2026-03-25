@@ -18,7 +18,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 80%;
+    width: 45%;
     margin: auto;
     border: 3px solid var(--primary-color);
 }
@@ -55,32 +55,41 @@ header {
 
 /* the styles for the main element */
 main {
+	display: flex;
+	flex-direction: row-reverse;
 	clear: left;
 }
 
 /* the styles for the section */
 section {
+	 flex-basis: 75%;
+}
 	& h1 {
 		color: var(--primary-color);
 	}
-}
+    & h2 {
+		color:  var(--primary-color);
+	}
 
 /* the styles for the article */
 article {
 	& img {
 		border: 1px solid var(--dark);
+		margin-right: 1em;
+		float: left;
 	}
 }
 
 /* the styles for the aside */
 aside {
+	flex-basis: 25%;
+}
 	& h2 {
 		color: var(--primary-color);
 	}
 	& img {
 		margin-bottom: .9em;
 	}
-}
 
 /* the styles for the footer */
 footer {
@@ -89,5 +98,6 @@ footer {
 		text-align: center;
 		color: white;
 		padding-bottom: 0; 
+		clear: both;
 	}
 }
