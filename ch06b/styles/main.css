@@ -65,7 +65,7 @@ main {
 
 /* the styles for the section */
 section {
-	flex-basis: 60%;
+	flex-basis: 59%;
 
 	& h1 {
 		padding-top: .5em;
