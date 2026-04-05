@@ -55,6 +55,52 @@ header {
 	}
 }
 
+/* the styles for the nav*/
+nav {
+	background-color: var(--primary-color);
+	width: 100%;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style-type: none;
+
+& a {
+    text-decoration: none;
+	color: white;
+	display: block;
+	padding: .5em 1em;
+}
+}
+
+.menu li:has(.submenu){
+	position: relative;
+	&:hover > .submenu {
+	   display: block;
+	}
+} 
+
+.submenu {
+	position: absolute;
+	list-style-type: none;
+	left: 0;
+	width: 175%;
+	display: none;
+	background-color: var(--primary-color);
+}
+
+a:hover, a:focus {
+    font-style: italic;
+   }
+
+a.current {
+	color: var(--accent-color);
+	font-weight: bold;
+	font-style: normal;
+}
+
 /* the styles for the main element */
 main {
 	clear: left;
@@ -63,7 +109,7 @@ main {
 
 /* the styles for the section */
 section {
-	flex-basis: 75%;
+	flex-basis: 80%;
 	& h1 {
 		color: var(--primary-color);
 	}
@@ -89,12 +135,9 @@ article {
 
 /* the styles for the aside */
 aside {
-	flex-basis: 25%;
+	flex-basis: 20%;
 	& h2 {
 		color: var(--primary-color);
-	}
-	& img {
-		margin-bottom: .9em;
 	}
 	& blockquote {
 		font-style: italic;
