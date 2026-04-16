@@ -135,6 +135,11 @@ section {
 order: 2;
 flex-basis: 75%;
 }
+
+header h3 {
+display: block;
+    }
+
 aside {
 order: 1;
 flex-basis: 25%;
@@ -144,11 +149,6 @@ flex-basis: 25%;
 /* Show h3 at measured breakpoint */
 @media screen and (min-width: 615px) {
 header h3 {
-display: block;
-    }
-}
-
-/* Hide h3 for small screens */
-header h3 {
 display: none;
+    }
 }
