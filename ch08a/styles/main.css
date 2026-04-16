@@ -23,10 +23,6 @@ body {
     border: 3px solid var(--primary-color);
 }
 
-header h3 {
-display: block;
-    } 
-
 header, section, aside, footer { padding: 1em; }
 h1, h2, h3, p, article { padding-bottom: .5em; }
 h1 { font-size: 150%; }
@@ -150,6 +146,6 @@ flex-basis: 25%;
 /* Show h3 at measured breakpoint */
 @media screen and (min-width: 615px) {
 header h3 {
-display: none;
+display: block;
     }
 }
