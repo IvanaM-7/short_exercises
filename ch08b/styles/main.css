@@ -142,7 +142,8 @@ footer {
 	padding: 0.25em 1em;
 	font-size: 24px;
 }
-.menu-btn::after { content: "\2630"; }
+.menu-btn::after { content: "\2630"; 
+color: white;}
 #checkbox-toggle:checked ~ .menu {
 	display: block;
 }
