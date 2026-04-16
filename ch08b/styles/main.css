@@ -134,6 +134,9 @@ footer {
 	left: 0;
 	display: none;
 	background-color: var(--primary-color);
+	& a.current:hover { 
+		font-style: normal;
+	}
 }
 #checkbox-toggle { display: none; }
 
