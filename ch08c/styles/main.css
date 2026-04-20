@@ -161,12 +161,6 @@ footer {
 	content: "\2716";
 }
 
-.submenu {
-	position: absolute;
-	left: 0;
-	display: none;
-	background-color: var(--primary-color);
-}
 #checkbox-toggle { display: none; }
 
 .menu-btn {
