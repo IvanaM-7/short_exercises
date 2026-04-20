@@ -114,8 +114,8 @@ footer {
 /* the styles for the navigation menu */
 
 .navbar {
-	container-type: inline-size / inline-size;
-	container-name: home / speakers;
+	container: inline-size / home;
+	container: inline-size / speakers;
 	flex-basis: 75%;
 	position: relative;
 	background-color: var(--primary-color);
