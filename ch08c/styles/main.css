@@ -190,16 +190,16 @@ footer {
 }
 .menu-btn { display: none; }
 #checkbox-toggle:checked ~ .menu { display: flex; }
-
- .submenu {
+	}
+}
+@container speakers (min-width: 560px) {
+.speakers {
+	.menu {
 	position: relative;
 	display: flex;
 	justify-content: space-evenly;
-	top: auto; /*remove mobile first value*/
-	left: 0;
-	width: 200%;
 }
 .menu-btn { display: none; }
 #checkbox-toggle:checked ~ .menu { display: flex; }
-}
+	}
 }
