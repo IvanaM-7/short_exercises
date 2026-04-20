@@ -188,7 +188,7 @@ footer {
 
 /* first container */
 @container home (min-width: 560px) {
-.speakers {
+.home {
 	.menu {
 	position: relative;
 	display: flex;
