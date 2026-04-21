@@ -116,7 +116,6 @@ footer {
 .navbar {
 	position: relative;
 	container-type: inline-size;
-	flex-basis: 75%;
 	background-color: var(--primary-color);
 	& ul {
 		list-style-type: none;
