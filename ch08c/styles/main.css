@@ -144,33 +144,20 @@ footer {
 	display: none;
 	background-color: var(--primary-color);
 }
-#checkbox-toggle { display: none; }
+input[type="checkbox"] { display: none; }
 
 .menu-btn {
 	display: block;
 	padding: 0.25em 1em;
 }
 .menu-btn::after { content: "\2630"; }
-#checkbox-toggle:checked ~ .menu {
+input[type="checkbox"]:checked ~ .menu {
 	display: block;
 }
-#checkbox-toggle:checked ~ .menu-btn::after {
+input[type="checkbox"]:checked ~ .menu-btn::after {
 	content: "\2716";
 }
 
-#checkbox-toggle { display: none; }
-
-.menu-btn {
-	display: block;
-	padding: 0.25em 1em;
-}
-.menu-btn::after { content: "\2630"; }
-#checkbox-toggle:checked ~ .menu {
-	display: block;
-}
-#checkbox-toggle:checked ~ .menu-btn::after {
-	content: "\2716";
-}
 
 
 
