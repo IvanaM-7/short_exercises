@@ -179,7 +179,7 @@ footer {
 
 /* first container */
 @container speakers (min-width: 560px) {
-.home {
+.speakers {
 	.menu {
 	position: relative;
 	display: flex;
