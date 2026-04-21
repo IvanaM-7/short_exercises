@@ -116,7 +116,6 @@ footer {
 .navbar {
 	position: relative;
 	container-type: inline-size;
-	container-name: speakers;
 	flex-basis: 75%;
 	background-color: var(--primary-color);
 	& ul {
