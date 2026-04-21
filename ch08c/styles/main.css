@@ -165,8 +165,8 @@ input[type="checkbox"]:checked ~ .menu-btn::after {
 
 
 /* first container */
-@container navbar (min-width: 560px) {
-.navbar {
+@container (min-width: 560px) {
+
 	.menu {
 	position: relative;
 	display: flex;
@@ -175,4 +175,3 @@ input[type="checkbox"]:checked ~ .menu-btn::after {
 .menu-btn { display: none; }
 input[type="checkbox"]:checked ~ .menu { display: flex; }
 	}
-}
