@@ -157,6 +157,7 @@ input[type="checkbox"]:checked ~ .menu {
 }
 input[type="checkbox"]:checked ~ .menu-btn::after {
 	content: "\2716";
+	color: white;
 }
 
 
