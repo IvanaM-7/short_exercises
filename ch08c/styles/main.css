@@ -165,8 +165,8 @@ input[type="checkbox"]:checked ~ .menu-btn::after {
 
 
 /* first container */
-@container speakers (min-width: 560px) {
-.speakers {
+@container navbar (min-width: 560px) {
+.navbar {
 	.menu {
 	position: relative;
 	display: flex;
