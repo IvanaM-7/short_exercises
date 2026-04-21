@@ -150,7 +150,8 @@ input[type="checkbox"] { display: none; }
 	display: block;
 	padding: 0.25em 1em;
 }
-.menu-btn::after { content: "\2630"; }
+.menu-btn::after { content: "\2630";
+color: white; }
 input[type="checkbox"]:checked ~ .menu {
 	display: block;
 }
