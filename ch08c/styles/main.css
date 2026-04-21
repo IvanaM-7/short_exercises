@@ -173,6 +173,6 @@ input[type="checkbox"]:checked ~ .menu-btn::after {
 	justify-content: space-evenly;
 }
 .menu-btn { display: none; }
-#checkbox-toggle:checked ~ .menu { display: flex; }
+input[type="checkbox"]:checked ~ .menu { display: flex; }
 	}
 }
