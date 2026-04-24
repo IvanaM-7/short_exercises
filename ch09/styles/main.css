@@ -86,6 +86,9 @@ section {
 	 text-decoration: none;
 	 color: var(--primary-color);
 	}
+	& li {
+		padding-left: .25em;
+	}
 }
 
 /* the styles for the article */
