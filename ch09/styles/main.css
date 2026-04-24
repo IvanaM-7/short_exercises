@@ -82,7 +82,7 @@ section {
 	 text-decoration: none;
 	 color: var(--primary-color);
 	}
-	& a.section:hover {
+	& a:hover {
 	 text-decoration: none;
 	 color: var(--primary-color);
 	}
