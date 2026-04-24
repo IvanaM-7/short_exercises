@@ -73,7 +73,7 @@ section {
 		margin: 0.5em 2em;
 	}
 	
-	& section a:link{
+	& a:link{
 		color: var(--accent-color);
 		font-weight: bold;
 	}
