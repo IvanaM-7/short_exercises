@@ -78,7 +78,7 @@ section {
 		font-weight: bold;
 	}
 
-	section a:focus, a:hover: {
+	a:focus, a:hover: {
 	text-decoration: none;
 	color: var(--primary-color);
 	}
