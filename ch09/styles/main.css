@@ -75,7 +75,7 @@ section {
 	& a{
 		color: var(--primary-color);
 		a:focus, a:hover {text-decoration: none;
-		color:#931420}
+		color: var(--primary-color)}
 	}
 }
 
