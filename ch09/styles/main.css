@@ -72,8 +72,8 @@ section {
 		list-style-type: square;
 		margin: 1em;
 	}
-	& a{
-		color: var(--primary-color);
+	& li{
+		color: var(--accent-color);
 		a:focus, a:hover {text-decoration: none;
 		color: var(--primary-color)}
 	}
