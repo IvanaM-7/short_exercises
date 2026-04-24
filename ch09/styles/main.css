@@ -75,6 +75,7 @@ section {
 	
 	& section a:link{
 		color: var(--accent-color);
+		font-weight: bold;
 	}
 
 	section a:focus, a:hover: {
