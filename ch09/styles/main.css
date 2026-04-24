@@ -73,12 +73,15 @@ section {
 		margin: 0.5em 2em;
 	}
 	
-	& section a{
+	& section a:link{
 		color: var(--accent-color);
 	}
 
-	section a:focus, a:hover: {text-decoration: none;
-		color: var(--primary-color);}
+	section a:focus, a:hover: {
+	text-decoration: none;
+	color: var(--primary-color);
+
+}
 }
 
 /* the styles for the article */
