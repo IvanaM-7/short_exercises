@@ -78,11 +78,11 @@ section {
 		color: var(--accent-color);
 		font-weight: bold;
 	}
-	& a.section:focus:{
+	& a.section:focus {
 	 text-decoration: none;
 	 color: var(--primary-color);
 	}
-	& a.section:hover: {
+	& a.section:hover {
 	 text-decoration: none;
 	 color: var(--primary-color);
 	}
