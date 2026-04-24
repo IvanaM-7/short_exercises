@@ -73,7 +73,7 @@ section {
 		margin: 0.5em 2em;
 	}
 	
-	& li{
+	& section a{
 		color: var(--accent-color);
 	}
 
