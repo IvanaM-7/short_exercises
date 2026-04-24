@@ -70,13 +70,15 @@ section {
 	}
 	& ul {
 		list-style-type: square;
-		margin: 1em;
+		margin: 0.5em 2em;
 	}
+	
 	& li{
 		color: var(--accent-color);
-		a:focus, a:hover {text-decoration: none;
-		color: var(--primary-color)}
 	}
+
+	section a:focus, a:hover: {text-decoration: none;
+		color: var(--primary-color);}
 }
 
 /* the styles for the article */
