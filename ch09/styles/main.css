@@ -67,7 +67,8 @@ main {
 section {
 	& h1 {
 		color: var(--primary-color);
-		margin: 0.5em 2.5em 0;
+		margin: 0.5em 2em 0;
+		padding: 0 2em ;
 		text-align: left;
 	}
 	& ul {
