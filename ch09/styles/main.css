@@ -67,6 +67,7 @@ main {
 section {
 	& h1 {
 		color: var(--primary-color);
+		margin:2em 5em 0;
 	}
 	& ul {
 		list-style-type: square;
