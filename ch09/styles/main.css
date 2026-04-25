@@ -68,12 +68,12 @@ section {
 	& h1 {
 		color: var(--primary-color);
 		margin: 0.7em 0 0;
-		padding: 0 1.9em ;
+		padding: 0 2.2em ;
 		text-align: left;
 	}
 	& ul {
 		list-style-type: square;
-		margin: 0.5em 4.8em 1em;
+		margin: 0.5em 5.1em 1em;
 	}
 	& a{
 		color: var(--accent-color);
