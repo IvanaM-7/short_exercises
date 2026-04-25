@@ -73,7 +73,7 @@ section {
 	}
 	& ul {
 		list-style-type: square;
-		margin: 0.5em 5.1em 1em;
+		margin: 0.6em 5.2em 1em;
 	}
 	& a{
 		color: var(--accent-color);
