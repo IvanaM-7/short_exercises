@@ -20,7 +20,7 @@
 	src: url("ch10/fonts/Inkfree.ttf");
 }
 
-.dancing-script-<uniquifier> {
+.dancing-script {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
