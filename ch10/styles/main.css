@@ -14,12 +14,6 @@
 	box-sizing: border-box;
 }
 
-
-@font-face {
-	font-family: Ink Free Regular;
-	src: url("ch10/fonts/Inkfree.ttf");
-}
-
 .dancing-script {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
