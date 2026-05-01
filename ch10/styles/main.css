@@ -20,6 +20,12 @@
 	src: url("ch10/fonts/Inkfree.ttf");
 }
 
+@font-face {
+font-family: "Sancreek", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* the default styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -31,7 +37,7 @@ body {
 header, section, aside, footer { padding: 1em; }
 h1, h2, h3, p, article, blockquote { padding-bottom: .5em; }
 h1 { font-size: 150%;
-font-family: Ink Free Regular}
+font-family: Sancreek}
 h2 { font-size: 120%; }
 h3 { font-size: 110%; }
 a:focus, a:hover { font-style: italic; }
