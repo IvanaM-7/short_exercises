@@ -100,7 +100,7 @@ article {
 
 figure {
 	float: left;
-	margin: .25em 1em 1em 0;
+	margin: .25em .5em 1em 0;
 	& img {width: min(100%, 225px);
 		border: 1px solid var(--dark);}
 	}
