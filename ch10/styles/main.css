@@ -20,8 +20,8 @@
 	src: url("ch10/fonts/Inkfree.ttf");
 }
 
-@font-face {
-font-family: "Sancreek", serif;
+.sancreek-regular {
+  font-family: "Sancreek", serif;
   font-weight: 400;
   font-style: normal;
 }
