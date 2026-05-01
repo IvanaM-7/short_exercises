@@ -105,6 +105,7 @@ figure {
 		border: 1px solid var(--dark);}
 	}
 	& figcaption {
+		font-size: 110%;
 		margin-bottom: 1em;
 		display: block;
 		font-weight: bold;
