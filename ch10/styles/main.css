@@ -107,8 +107,8 @@ article {
 figure {
 	float: left;
 	margin: .25em 1em 1em 0;
-	border: 1px solid var(--dark);
-	& img {width: min(100%, 225px);}
+	& img {width: min(100%, 225px);
+		border: 1px solid var(--dark);}
 	}
 	& figcaption {
 		display: block;
