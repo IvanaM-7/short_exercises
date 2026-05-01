@@ -111,6 +111,7 @@ figure {
 		border: 1px solid var(--dark);}
 	}
 	& figcaption {
+		margin-bottom: 1em;
 		display: block;
 		font-weight: bold;
 	}
