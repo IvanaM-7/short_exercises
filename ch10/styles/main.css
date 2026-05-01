@@ -20,9 +20,10 @@
 	src: url("ch10/fonts/Inkfree.ttf");
 }
 
-.sancreek-regular {
-  font-family: "Sancreek", serif;
-  font-weight: 400;
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
 
