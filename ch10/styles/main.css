@@ -38,7 +38,7 @@ body {
 header, section, aside, footer { padding: 1em; }
 h1, h2, h3, p, article, blockquote { padding-bottom: .5em; }
 h1 { font-size: 150%;
-font-family: dancing-script;}
+font-family: Dancing Script;}
 h2 { font-size: 120%; }
 h3 { font-size: 110%; }
 a:focus, a:hover { font-style: italic; }
