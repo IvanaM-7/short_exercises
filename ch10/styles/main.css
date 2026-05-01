@@ -102,13 +102,19 @@ article {
 	border-top: 3px solid var(--primary-color);
 	padding-top: .5em;
 	margin-bottom: .5em;
-	& img {
-		float: left;
-		margin: .25em 1em 1em 0;
-		border: 1px solid var(--dark);
-		width: min(100%, 225px);
 	}
-}
+
+figure {
+	float: left;
+	margin: .25em 1em 1em 0;
+	border: 1px solid var(--dark);
+	& img {width: min(100%, 225px);}
+	}
+	& figcaption {
+		display: block;
+		font-weight: bold;
+	}
+
 
 /* the styles for the aside */
 aside {
