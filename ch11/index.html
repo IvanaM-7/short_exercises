@@ -31,12 +31,16 @@
 			text-align: right;
 			tfoot td{font-weight: bold;}
 }
-		tbody tr:nth-child(even) td {
-			background-color: lightgrey;
-		}
         tbody td:last-child {
             text-align: right;
         }
+
+		/* the media query for the page */
+@media only screen and (min-width: 640px) {
+	tbody tr:nth-child(even) td {
+		background-color: lightgrey;
+	}
+}
 	</style>
 </head>
 
