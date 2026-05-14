@@ -58,27 +58,21 @@
 
 	thead {display: none;}
     tfoot th, tfoot td:nth-of-type(1) {display: none;}
-
+           /*Names gray color*/
 	tr:first-child td:nth-child(2) {background-color: lightgray;}
 	tr:nth-child(2) td:first-child {background-color: lightgray;}
-    
+          /*Headers backgroud*/
 	tr:first-child td:first-child {background-color: lightgreen;}
 	tr:nth-child(4) td:first-child {background-color: lightgreen;}
 	tr:nth-child(6) td:first-child {background-color: lightgreen;}
-
-	/*tbody td:first-child {
-		font-weight: bold;
-		background-color: lightgreen;
-	}*/
-
-	/*tr:nth-child(4) td:first-child {vertical-align: top;
-		font-weight: bold;}*/
-
+         /*Last row captions w header*/
 	tr:first-child td:nth-of-type(4)::before {content: "Years of Service: "; }
     tr:nth-child(4) td:nth-of-type(4)::before {content: "Years of Service: "; }
     tr:nth-child(4) td:nth-of-type(6)::before {content: "Years of Service: "; }
-
-	
+         /*Last row captions w/o header*/
+    tr:nth-child(2) td:nth-of-type(6)::before {content: "Years of Service: "; }
+	tr:nth-child(5) td:nth-of-type(4)::before {content: "Years of Service: "; }
+    tr:nth-child(6) td:nth-of-type(6)::before {content: "Years of Service: "; }
 }
 	</style>
 </head>
