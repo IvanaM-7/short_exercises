@@ -64,6 +64,11 @@
 	thead {display: none;}
 	tfoot th {display: none;}
 
+	 /*tfoot*/
+	tfoot td {background-color: lightgreen;}
+	tfoot td:first-child::before {content: "Total Years of Service: "}
+
+
            /*Names gray w header color*/
 	tr:first-child td:nth-child(2) {background-color: lightgray;}
 	tr:nth-child(4) td:nth-child(2) {background-color: lightgray;}
@@ -89,10 +94,7 @@
 	tr:nth-child(3) td:nth-of-type(3)::before {content: "Years of Service: "; }
 	tr:nth-child(5) td:nth-of-type(3)::before {content: "Years of Service: "; }
     tr:nth-child(7) td:nth-of-type(3)::before {content: "Years of Service: "; }
-        /*tfoot*/
-	tfoot td {background-color: lightgreen;}
-	tfoot td:first-child::before {content: "Total Years of Service: "}
-
+       
 	/*position headings*/
     td:nth-of-type(3)::before { display: block;}
 
