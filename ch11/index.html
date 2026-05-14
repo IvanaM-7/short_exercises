@@ -70,7 +70,7 @@
 	tr:nth-child(4) td:nth-child(2) {background-color: lightgray;}
 	tr:nth-child(6) td:nth-child(2) {background-color: lightgray;}
 	        /*Names gray w/o header color*/
-	tr:nth-child(2) td:first-child {background-color: pink;}
+	tr:nth-child(2) td:first-child {background-color: lightgray;}
 	tr:nth-child(3) td:first-child {background-color: lightgray;}
 	tr:nth-child(5) td:first-child {background-color: lightgray;}
 	tr:nth-child(7) td:first-child {background-color: lightgray;}
@@ -92,7 +92,8 @@
     tr:nth-child(7) td:nth-of-type(3)::before {content: "Years of Service: "; }
        
 	/*position headings*/
-    td:nth-of-type(3)::before { display: block;}
+    td:nth-of-type(3)::before { display: absolute;
+		left: 30px;}
 
 	/*td:nth-of-type(4)::before { display: absolute;
 	left: 30px;
