@@ -84,7 +84,8 @@
 	border-bottom: none;}
          /*Last row captions w header*/
 	tr:first-child td:nth-of-type(4)::before {content: "Years of Service: "; 
-    display: block;}
+    display: absolute;
+    left: 30px}
     tr:nth-child(4) td:nth-of-type(4)::before {content: "Years of Service: "; }
     tr:nth-child(6) td:nth-of-type(4)::before {content: "Years of Service: "; }
          /*Last row captions w/o header*/
@@ -93,13 +94,13 @@
 	tr:nth-child(5) td:nth-of-type(3)::before {content: "Years of Service: "; }
     tr:nth-child(7) td:nth-of-type(3)::before {content: "Years of Service: "; }
        
-	/*position headings*/
+	/*position headings
     td:nth-of-type(3)::before { display: absolute;
 		left: 30px;}
 
 	td:nth-of-type(4)::before { display: absolute;
 	left: 30px;
-    }
+    }*/
 }
 	</style>
 </head>
