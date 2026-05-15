@@ -67,7 +67,9 @@
 	 /*tfoot*/
 	tfoot th {display: none;}
 	tfoot td {background-color: lightgreen;
-	border-bottom: none;}
+	border-bottom: none;
+        display: flex;
+        justify-content: space-between;}
 	tfoot td::before {content: "Total Years of Service: "}
 
 
@@ -99,13 +101,9 @@
 	tbody tr:nth-child(5) td:nth-of-type(3)::before {content: "Years of Service: "; }
     tbody tr:nth-child(7) td:nth-of-type(3)::before {content: "Years of Service: "; }
        
-	/*position headings
-    td:nth-of-type(3)::before { display: absolute;
-		left: 30px;}
-
-	td:nth-of-type(4)::before { display: absolute;
-	left: 30px;
-    }*/
+	 body td:last-child {
+            text-align: none;
+        }
 }
 	</style>
 </head>
