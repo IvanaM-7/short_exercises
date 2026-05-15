@@ -66,11 +66,14 @@
 	thead {display: none;}
 
            /*Names gray w header color*/
-	tbody tr:first-child td:nth-child(2), tbody tr:nth-child(4) td:nth-child(2),
+	tbody tr:first-child td:nth-child(2),
+	tbody tr:nth-child(4) td:nth-child(2),
 	tbody tr:nth-child(6) td:nth-child(2) {background-color: lightgray;}
 	        /*Names gray w/o header color*/
-	tbody tr:nth-child(2) td:first-child, tbody tr:nth-child(3) td:first-child,
-	tbody tr:nth-child(5) td:first-child, tbody tr:nth-child(7) td:first-child {
+	tbody tr:nth-child(2) td:first-child,
+	tbody tr:nth-child(3) td:first-child,
+	tbody tr:nth-child(5) td:first-child,
+	tbody tr:nth-child(7) td:first-child {
 		background-color: lightgray;
 	}
           /*Headers backgroud*/
@@ -82,11 +85,14 @@
 	tbody tr:nth-child(6) td:first-child {background-color: lightgreen;
 	border-bottom: none;}
          /*Last row captions w header*/
-	tbody tr:first-child td:nth-of-type(4)::before, tbody tr:nth-child(4) td:nth-of-type(4)::before,
+	tbody tr:first-child td:nth-of-type(4)::before,
+	tbody tr:nth-child(4) td:nth-of-type(4)::before,
     tbody  tr:nth-child(6) td:nth-of-type(4)::before {content: "Years of Service: "; }
          /*Last row captions w/o header*/
-    tbody tr:nth-child(2) td:nth-of-type(3)::before, tbody tr:nth-child(3) td:nth-of-type(3)::before,
-	tbody tr:nth-child(5) td:nth-of-type(3)::before, tbody tr:nth-child(7) td:nth-of-type(3)::before {content: "Years of Service: "; }
+    tbody tr:nth-child(2) td:nth-of-type(3)::before,
+	tbody tr:nth-child(3) td:nth-of-type(3)::before,
+	tbody tr:nth-child(5) td:nth-of-type(3)::before,
+	tbody tr:nth-child(7) td:nth-of-type(3)::before {content: "Years of Service: "; }
        
 	     /*Text aligment w/o header*/
 	tbody tr:first-child td:nth-child(4),
