@@ -32,10 +32,8 @@
 			text-align: left;
 			vertical-align: middle;
 		}
-		tr:first-child td:first-child {vertical-align: top;
-		        font-weight: bold;}
-		tr:nth-child(4) td:first-child {vertical-align: top;
-		        font-weight: bold;}
+		tr:first-child td:first-child,
+		tr:nth-child(4) td:first-child,
 		tr:nth-child(6) td:first-child {vertical-align: top;
 		        font-weight: bold;}									
 				
@@ -47,8 +45,9 @@
 	       font-weight: bold;}
 
        body td:last-child {
-            display: flex;
-            justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
         }
 
 		/* the media query for the page */
