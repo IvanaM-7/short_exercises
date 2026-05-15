@@ -60,18 +60,10 @@
 	table {width: 100%;}
 
 	th, td {display: block;}
+
      /*borders*/
 	tbody td {border-bottom: none;}
 	thead {display: none;}
-
-	 /*tfoot*/
-	tfoot th {display: none;}
-	tfoot td {background-color: lightgreen;
-	border-bottom: none;
-        display: flex;
-        justify-content: space-between;}
-	tfoot td::before {content: "Total Years of Service: "}
-
 
            /*Names gray w header color*/
 	tbody tr:first-child td:nth-child(2), tbody tr:nth-child(4) td:nth-child(2),
@@ -99,6 +91,16 @@
 	 body td:last-child {
             text-align: none;
         }
+
+		
+	          /*tfoot*/
+	tfoot th {display: none;}
+	tfoot td {background-color: lightgreen;
+	border-bottom: none;
+        display: flex;
+        justify-content: space-between;}
+	tfoot td::before {content: "Total Years of Service: "}
+
 }
 	</style>
 </head>
