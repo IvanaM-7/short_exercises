@@ -35,12 +35,15 @@ label {
     display: block;
 }
 
+input:invalid {border-color: red;}
+
 textarea {
     width: 100%;
     padding: .2em;
     height: 8em;
     font-family: inherit;
     font-size: inherit;
+    margin-bottom: .25emS;
 }
 
 button {
