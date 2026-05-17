@@ -31,6 +31,18 @@ input, select {
     border-radius: 5px;
 }
 
+label {
+    display: block;
+}
+
+textarea {
+    width: 100%;
+    padding: .2em;
+    height: 8em;
+    font-family: inherit;
+    font-size: inherit;
+}
+
 button {
     font-size: inherit;
     font-weight: bold;
@@ -39,14 +51,11 @@ button {
     padding: .5em;
 }
 
- .submit {background-color: green;}
- .reset {background-color: red;}
+ button.submit {background-color: green;}
+ button.reset {background-color: red;}
 
 button.submit:hover {background-color: lightgreen;}
 button.reset:hover {background-color: lightsalmon;}
 
 input, button {border-radius: 5px;}
 
-label {
-    display: block;
-}
