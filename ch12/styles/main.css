@@ -24,10 +24,17 @@ h1, h2, h3 {
 form, input, select {
     width:100%;
 }
-input, select {
+select {
     font-size: inherit;
     padding: .25em;
     margin-bottom: .5em;
+    border-radius: 5px;
+}
+
+input {
+    font-size: inherit;
+    padding: .2em;
+    margin-bottom: 1em;
     border-radius: 5px;
 }
 
