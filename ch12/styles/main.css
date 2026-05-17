@@ -24,7 +24,7 @@ h1, h2, h3 {
 form, input, select, textarea {
     width:100%;
 }
-input, select, button {
+input, select {
     font-size: inherit;
     padding: .25em;
     margin-bottom: .5em;
@@ -35,6 +35,8 @@ button {
     font-size: inherit;
     font-weight: bold;
     color: white;
+    width: 8em;
+    padding: .5em;
     
     .submit {background-color: green;}
     .reset {background-color: red;}
@@ -42,6 +44,8 @@ button {
 
 button.submit:hover {background-color: lightgreen;}
 button.reset:hover {background-color: lightsalmon;}
+
+input, button {border-radius: 5px;}
 
 label {
     display: block;
