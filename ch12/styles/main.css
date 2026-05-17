@@ -30,6 +30,15 @@ input, select, button {
     margin-bottom: .5em;
     border-radius: 5px;
 }
+
+button {
+    font-size: inherit;
+    font-weight: bold;
+    color: white;
+    
+    .submit {background-color: green;}
+    .reset {background-color: red;}
+}
 label {
     display: block;
 }
