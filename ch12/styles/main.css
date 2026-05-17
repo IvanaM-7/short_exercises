@@ -37,10 +37,10 @@ button {
     color: white;
     width: 8em;
     padding: .5em;
-    
-    .submit {background-color: green;}
-    .reset {background-color: red;}
 }
+
+ .submit {background-color: green;}
+ .reset {background-color: red;}
 
 button.submit:hover {background-color: lightgreen;}
 button.reset:hover {background-color: lightsalmon;}
