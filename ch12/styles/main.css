@@ -21,7 +21,7 @@ body {
 h1, h2, h3 {
     padding-bottom: .5em;
 }
-form, input, select, textarea {
+form, input, select {
     width:100%;
 }
 input, select {
@@ -31,11 +31,14 @@ input, select {
     border-radius: 5px;
 }
 
+legend {font-size: 1.2em;
+margin-bottom: 0.5em;}
+
 label {
     display: block;
 }
 
-input:invalid {border-color: red;}
+input[type="text"]:invalid {border-color: red;}
 
 textarea {
     width: 100%;
