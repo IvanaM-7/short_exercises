@@ -40,8 +40,10 @@ input {
 
 legend {font-size: 1.2em;
 margin-bottom: 0.5em;
-font-weight: bold;
-padding-left: 0.25em;}
+font-weight: bold;}
+
+fieldset{padding: .5em 1em;
+margin-bottom: .5em;}
 
 label {
     display: block;
