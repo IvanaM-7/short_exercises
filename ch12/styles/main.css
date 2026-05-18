@@ -72,8 +72,8 @@ button {
 .button-submit {background-color: green;}
 .button-reset {background-color: red;}
 
-.submit:hover {background-color: lightgreen;}
-.reset:hover {background-color: lightsalmon;}
+.button-submit:hover {background-color: lightgreen;}
+.button-reset:hover {background-color: lightsalmon;}
 
 input, button {border-radius: 5px;}
 
