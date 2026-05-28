@@ -42,8 +42,6 @@ header {
 		var(--light) 50%, 
 		var(--light-accent) 75%, 
 		var(--accent-color) 100%)
-		grid-column: 1 / 13;
-		grid-row: 1 / 2;
 
 	& h2 {
 		font-size: 175%;
@@ -61,11 +59,14 @@ header {
 	}
 }
 
+header {
+	grid-column: 1 / 13;
+	grid-row: 1 / 2;
+}
 /* the styles for the section */
 section {
 	grid-column: 4 / 10;
 	grid-row: 2 / 3;
-
 	& h1 {
 		padding-top: .5em;
 	}
