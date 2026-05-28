@@ -21,6 +21,9 @@ body {
     width: 80%;
     margin: auto;
     border: 3px solid var(--primary-color);
+	display: grid;
+	grid-template-columns: repeat(12, fr);
+	grid-template-rows: auto auto auto;
 }
 header, section, aside, footer { padding: 1em; }
 h1, h2, h3, p, article, blockquote { padding-bottom: .5em; }
