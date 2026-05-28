@@ -41,7 +41,10 @@ header {
 		var(--light-accent) 25%, 
 		var(--light) 50%, 
 		var(--light-accent) 75%, 
-		var(--accent-color) 100%);
+		var(--accent-color) 100%)
+		grid-column: 1 / 13;
+		grid-row: 1 / 2;
+		
 	& h2 {
 		font-size: 175%;
 		color: var(--primary-color);
