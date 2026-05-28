@@ -63,6 +63,9 @@ header {
 
 /* the styles for the section */
 section {
+	grid-column: 4 / 10;
+	grid-row: 2 / 3;
+
 	& h1 {
 		padding-top: .5em;
 	}
