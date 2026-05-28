@@ -41,7 +41,7 @@ header {
 		var(--light-accent) 25%, 
 		var(--light) 50%, 
 		var(--light-accent) 75%, 
-		var(--accent-color) 100%)
+		var(--accent-color) 100%);
 
 	& h2 {
 		font-size: 175%;
