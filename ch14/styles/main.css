@@ -44,7 +44,7 @@ header {
 		var(--accent-color) 100%)
 		grid-column: 1 / 13;
 		grid-row: 1 / 2;
-		
+
 	& h2 {
 		font-size: 175%;
 		color: var(--primary-color);
@@ -103,8 +103,20 @@ aside {
 	}
 }
 
+aside:first-of-type {
+	grid-column: 1 / 4;
+	grid-row: 2 / 3;
+}
+
+aside:last-of-type {
+	grid-column: 10 / 13;
+	grid-row: 2 / 3;;
+}
+
 /* the styles for the footer */
 footer {
+	grid-column: 1 / 13;
+	grid-row: 3 / 4;
 	background-color: var(--primary-color);
 	& p {
 		text-align: center;
